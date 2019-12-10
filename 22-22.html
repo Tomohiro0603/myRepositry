@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>JS-3</title>
+    </head>
+    <body>
+        
+        <p id="output1">先生のことが</p>
+        <button onclick="btn1();">好き</button>
+        <button onclick="btn2();">嫌い</button>
+        <script>
+            const OUTPUT1=document.getElementById("output1")
+
+            function btn1(){       
+                let n1="単位を";
+                let n2="無条件であげます！";
+                let n3=n1+n2;
+                OUTPUT1.innerHTML=n3;
+                btn1.style.color="red";
+
+               
+
+
+            }
+            function btn2(){
+                 let n1="留年確定！！";
+                 OUTPUT1.innerHTML=n1;}
+        </script>
+    </body>
+</html>
